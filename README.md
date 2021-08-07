@@ -1,4 +1,4 @@
-# dabak-front
+# lotto-front
 
 ## Project setup
 ```
