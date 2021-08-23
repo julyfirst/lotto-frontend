@@ -42,7 +42,7 @@
             async getLottoNumber() {
                 try {
                     let response = await LottoAPI.v1.getLottoNumberList({
-                        count: 5,
+                        count: -1,
                     });
                     if(response) {
                         if(response.data.successful === true) {
