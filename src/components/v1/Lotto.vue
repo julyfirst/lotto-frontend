@@ -59,6 +59,7 @@
         created() {
             this.getLottoNumber();
         }
+
     }
 </script>
 
