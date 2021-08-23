@@ -1836,6 +1836,13 @@ aws4@^1.8.0:
   resolved "https://registry.nlark.com/aws4/download/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 babel-eslint@^10.1.0:
   version "10.1.0"
   resolved "https://registry.npm.taobao.org/babel-eslint/download/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
@@ -3897,6 +3904,11 @@ follow-redirects@^1.0.0:
   resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
   integrity sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M=
 
+follow-redirects@^1.10.0:
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.2.tgz#cecb825047c00f5e66b142f90fed4f515dec789b"
+  integrity sha512-yLR6WaE2lbF0x4K2qE2p9PEXKLDjUjnR/xmjS3wHAYxtlsI9MLLBJUZirAHKzUZDGLxje7w/cXR49WOUo4rbsA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.nlark.com/for-in/download/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -5477,6 +5489,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+monaco-editor@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.20.0.tgz#5d5009343a550124426cb4d965a4d27a348b4dea"
+  integrity sha512-hkvf4EtPJRMQlPC3UbMoRs0vTAFAYdzFQ+gpMb8A+9znae1c43q8Mab9iVsgTcg/4PNiLGGn3SlDIa8uvK1FIQ==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.nlark.com/move-concurrently/download/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -5540,6 +5557,11 @@ nan@^2.12.1:
   version "2.15.0"
   resolved "https://registry.nlark.com/nan/download/nan-2.15.0.tgz?cache=0&sync_timestamp=1628094036560&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnan%2Fdownload%2Fnan-2.15.0.tgz#3f34a473ff18e15c1b5626b62903b5ad6e665fee"
   integrity sha1-PzSkc/8Y4VwbVia2KQO1rW5mX+4=
+
+nano-assign@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/nano-assign/-/nano-assign-1.0.1.tgz#abb1c50d0416b865fb37bbd155c5368bb54378e5"
+  integrity sha512-1K8ncUoAYFPYcCZqrB+K2XQaFCmA35rryJCtPkGrG3zYkwm+iIUZRIHyaAfuy6zxaK9siPdjeJq7+Inijm6xhw==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -8142,10 +8164,18 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@^3.2.0:
+vue-monaco@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/vue-monaco/-/vue-monaco-1.2.2.tgz#5e88bd25bf013a32d8fb051acab7bc186c3753e4"
+  integrity sha512-+BhCHeAuDmjtCUP9MUxan6OjGgOqDR7xHlNScZ8Cfq32iac76Fv7z6RfC+lSrp0YpCjEPl6bvpY21N11UBRmMg==
+  dependencies:
+    monaco-editor "^0.20.0"
+    nano-assign "^1.0.0"
+
+vue-router@^3.5.2:
   version "3.5.2"
-  resolved "https://registry.nlark.com/vue-router/download/vue-router-3.5.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-router%2Fdownload%2Fvue-router-3.5.2.tgz#5f55e3f251970e36c3e8d88a7cd2d67a350ade5c"
-  integrity sha1-X1Xj8lGXDjbD6NiKfNLWejUK3lw=
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.5.2.tgz#5f55e3f251970e36c3e8d88a7cd2d67a350ade5c"
+  integrity sha512-807gn82hTnjCYGrnF3eNmIw/dk7/GE4B5h69BlyCK9KHASwSloD1Sjcn06zg9fVG4fYH2DrsNBZkpLtb25WtaQ==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"

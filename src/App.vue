@@ -33,11 +33,14 @@
 
 
 </template>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-<scrip>
+<scrip>import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
   export default {
-    name: "app"
-  }
+    name: "app",
+    created() {
+      console.log("hi");
+    },
+  };
 </scrip>
 <style scoped>
 
