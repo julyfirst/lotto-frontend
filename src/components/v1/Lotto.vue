@@ -8,8 +8,6 @@
                 <li><a href="./sub02.html">조회하기</a></li>
                 <li><a href="./sub03.html">최근당첨결과</a></li>
                 <li><a href="./sub04.html">게시판</a></li>
-                <li><a href="./sub04.html">게시판</a></li>
-                <li><a href="./sub04.html">게시판</a></li>
             </ul>
         </header>
         <div class="content">
